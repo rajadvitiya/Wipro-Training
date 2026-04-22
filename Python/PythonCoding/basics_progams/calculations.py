@@ -1,4 +1,6 @@
-a=int(input("Enter a number : "))
-b=int(input("Enter second number : "))
+#cal pgm
 
-print("ans : ",a+b)
+num1 = int(input("Enter a number : "))
+num2 = int(input("Enter second number : "))
+
+print("ans : ",num1+num2)

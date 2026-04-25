@@ -302,8 +302,6 @@ import math
 # # Using string_validations
 # print("Is palindrome?", sv.is_palindrome(text))
 # print("Contains only alphabets?", sv.is_alpha(text))
-#
-#
 # #output
 # Reversed: radaR
 # Uppercase: RADAR

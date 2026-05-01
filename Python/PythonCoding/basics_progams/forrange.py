@@ -8,4 +8,4 @@ num = int(input('Enter a number'))
 # print(sum)
 
 for _ in range(num):
-    print('*' , end='_')
+    print('*' , end='\t')

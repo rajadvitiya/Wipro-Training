@@ -6,6 +6,4 @@ def setup_teardown():
     print('Starting...')
     yield
     print('Ending...')
-
-
-
+    

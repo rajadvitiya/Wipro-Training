@@ -16,10 +16,10 @@ class HomePage:
         self.wait = WebDriverWait(driver, 5)
 
 
-    def type_search_input(self):
+    def type_search_input(self,search_product):
         search_box = self.wait.until(EC.visibility_of_element_located(self.SEARCH_INPUT))
         search_box.clear()
-        search_box.send_keys("wireless mouse")
+        search_box.send_keys(search_product)
 
 
     def click_search_button(self):

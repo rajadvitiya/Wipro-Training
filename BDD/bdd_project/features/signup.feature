@@ -7,8 +7,8 @@ Feature: Signup Functionality
   Scenario: Successful Signup
 
     When User clicks on Sign up menu
-    And User enters signup username "kaali1234"
-    And User enters signup password "rahul234"
+    And User enters signup username "Ramnu123"
+    And User enters signup password "rohit123"
     And User clicks Signup button
     Then User should see signup success message
 
